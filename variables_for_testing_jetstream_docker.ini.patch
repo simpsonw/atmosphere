@@ -9,7 +9,9 @@
 > TEST_RUNNER_USER = # Nothing
 > TEST_RUNNER_PASS = # Nothing
 > DJANGO_JENKINS = False
-66c69
+66,67c69,70
+< ALLOC_SNAPSHOT_SIZE = 1000
 < USE_JETSTREAM_PLUGIN =  False # Boolean required
 ---
+> ALLOC_SNAPSHOT_SIZE = 1
 > USE_JETSTREAM_PLUGIN =  True # Boolean required
